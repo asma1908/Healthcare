@@ -1,0 +1,66 @@
+/* Home Page Styles */
+.home-container {
+    text-align: center;
+    padding: 40px;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+  }
+  
+  .home-header {
+    background: #007bff;
+    color: white;
+    padding: 50px 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+  
+  .home-header h1 {
+    margin: 0;
+    font-size: 2.5em;
+  }
+  
+  .home-header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  .btn-primary {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #0056b3;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #003f7f;
+  }
+  
+  /* Services Section */
+  .home-services {
+    margin-top: 40px;
+  }
+  
+  .services-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .service-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 250px;
+  }
+  
+  .service-item h3 {
+    color: #007bff;
+    margin-bottom: 10px;
+  }
